@@ -1,0 +1,122 @@
+.container{
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 90vh;
+    margin: auto;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainer{
+    /* border: 1px solid black; */
+    width: 85%;
+    height: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subContainer>div{
+    /* border: 1px solid blue; */
+}
+
+.signUpBox{
+    width: 35%;
+    height: 100%;
+    border: 0.5px solid #878787;
+    border-radius: 10px;
+    box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.05);
+}
+
+.imageHolder{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    /* border: 1px solid red; */
+    height: 30%;
+    width: 90%;
+    margin-left: 24px;
+}
+
+.welcm{
+font-family: sans-serif;
+font-weight: 300;
+font-size: 25px;
+line-height: 16px;
+}
+
+.sgnup{
+font-family: sans-serif;
+font-weight: 500;
+font-size: 31px;
+line-height: 16px;
+}
+
+.simple{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.bottom{
+    /* border: 1px solid blue; */
+    height: 70%;
+    width: 90%;
+    margin-left: 24px;
+}
+
+.container{
+    font-family: sans-serif;
+}
+
+.inputBox{
+    border: 0.6px solid #282828;
+border-radius: 6px;
+height: 30px;
+padding-left: 24px;
+display: flex;
+/* justify-content: center; */
+align-items: center;
+}
+
+.nooutline {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color:white;
+  }
+  
+  .nooutline:focus {
+    outline: none;
+  }
+
+  .email{
+    line-height: 6px;
+    font-size: 16px;
+  }
+
+  .registerBOx{
+    /* border: 0.6px solid #282828; */
+    border-radius: 6px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+  }
+
+  .registerBtn{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+  }
